@@ -14,7 +14,7 @@ RUN apt-get -y install php
 
 RUN rm /var/www/html/index.html
 
-COPY src /var/www/html
+COPY index.html /var/www/html
 
 EXPOSE 80
 
